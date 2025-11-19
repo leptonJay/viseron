@@ -123,7 +123,7 @@ export function RequireRole({ userRole }: RequireRoleProps) {
           subtext="You do not have permission to view this page."
         />
         <Button variant="contained" component={Link} to="/">
-          Navigate to Home
+          Naviaget to Home Yo
         </Button>
       </Container>
     );

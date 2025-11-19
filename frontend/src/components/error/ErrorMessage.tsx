@@ -112,7 +112,7 @@ export function ErrorBoundaryInner({
     >
       <ErrorMessage text="An error occurred" subtext={error.message} />
       <Button variant="contained" component={Link} to="/">
-        Navigate to Home
+        Naviaget to Home Yo
       </Button>
       <Button variant="contained" onClick={resetErrorBoundary}>
         Retry

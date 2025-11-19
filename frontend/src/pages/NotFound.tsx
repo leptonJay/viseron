@@ -26,7 +26,7 @@ function NotFound() {
         <ErrorNotFound />
       </Box>
       <Button variant="contained" component="a" href="/">
-        Navigate to Home
+        Naviaget to Home Yo Dude
       </Button>
     </Container>
   );
