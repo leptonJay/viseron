@@ -72,7 +72,7 @@ describe("AuthContext", () => {
     );
     renderWithProviders(<TestComponent />);
     await waitFor(() => {
-      expect(screen.getByText("Loading Auth")).toBeInTheDocument();
+      expect(screen.getByText("Loading Imax Auth")).toBeInTheDocument();
     });
     responsePromise.resolve(null);
   });

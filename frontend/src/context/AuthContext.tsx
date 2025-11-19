@@ -142,7 +142,7 @@ export function AuthProvider({ children }: AuthProviderProps) {
   );
 
   if (authQuery.isPending || authQuery.isLoading) {
-    return <Loading text="Loading Auth" />;
+    return <Loading text="Loading Imax Auth" />;
   }
 
   if (authQuery.isError) {
