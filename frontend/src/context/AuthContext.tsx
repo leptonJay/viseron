@@ -148,7 +148,7 @@ export function AuthProvider({ children }: AuthProviderProps) {
   if (authQuery.isError) {
     return (
       <ErrorMessage
-        text="Error connecting to server"
+        text="Error connecting to Imax server"
         subtext={authQuery.error.message}
       />
     );
