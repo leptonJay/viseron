@@ -11,7 +11,7 @@ function ComponentHeader({ meta }: { meta: Component }) {
   return (
     <div>
       <Head>
-        <title>{meta.title} | Viseron</title>
+        <title>{meta.title} | UPF Ayz</title>
       </Head>
       <div className={styles.header}>
         <Heading as="h1">{meta.title}</Heading>

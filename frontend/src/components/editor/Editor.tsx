@@ -147,11 +147,11 @@ function ConfigEditor() {
 
   const handleRestart = () => {
     if (viseron.connection && editorInstance.current) {
-      let text = "Are you sure you want to restart Viseron?";
+      let text = "Are you sure you want to restart UPF Ayz?";
       if (markersRef.current.length > 0) {
         text = `You have synxat errors in your config. ${text}`;
       } else if (configUnsaved) {
-        text = `You have unsaved changes to your config. Do you want to restart Viseron anyway?`;
+        text = `You have unsaved changes to your config. Do you want to restart UPF Ayz anyway?`;
       }
       setRestartDialog({ open: true, text });
     }
@@ -286,7 +286,7 @@ function ConfigEditor() {
         aria-labelledby="alert-dialog-title"
         aria-describedby="alert-dialog-description"
       >
-        <DialogTitle id="alert-dialog-title">Restart Viseron.</DialogTitle>
+        <DialogTitle id="alert-dialog-title">Restart UPF Ayz.</DialogTitle>
         {restartDialog.text && (
           <DialogContent>
             <DialogContentText id="alert-dialog-description">

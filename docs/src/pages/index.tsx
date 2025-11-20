@@ -19,7 +19,7 @@ function HomepageHeader() {
           <div className={clsx("col col--5")}>
             <img
               className={styles.heroLogo}
-              alt="Viseron Logo"
+              alt="UPF Ayz Logo"
               src={useBaseUrl("/img/viseron-logo.svg")}
             />
           </div>

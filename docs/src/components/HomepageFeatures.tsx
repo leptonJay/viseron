@@ -29,7 +29,7 @@ const FeatureList: FeatureItem[] = [
     image: "/img/undraw_advanced_customization.svg",
     description: (
       <>
-        Viseron comes with a good number of components which can be mixed and
+        UPF Ayz comes with a good number of components which can be mixed and
         matched to your liking.<br></br>
         <Link href="/components-explorer">
           See full list of components here.
@@ -42,7 +42,7 @@ const FeatureList: FeatureItem[] = [
     image: "/img/undraw_speed_test.svg",
     description: (
       <>
-        Viseron supports CUDA, Google Coral EdgeTPU and Jetson Nano, among
+        UPF Ayz supports CUDA, Google Coral EdgeTPU and Jetson Nano, among
         others, to better utilize your systems resources.
       </>
     ),

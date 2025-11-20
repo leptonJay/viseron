@@ -30,7 +30,7 @@ function Onboarding() {
         <ViseronLogo width={150} height={150} />
       </Box>
       <Typography variant="h4" align="center">
-        Welcome to Viseron!
+        Welcome to UPF Ayz!
       </Typography>
       <Box
         display="flex"

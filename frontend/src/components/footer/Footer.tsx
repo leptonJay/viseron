@@ -1,11 +1,6 @@
-import GitHubIcon from "@mui/icons-material/GitHub";
-import Link from "@mui/material/Link";
 import Typography from "@mui/material/Typography";
 import { styled, useTheme } from "@mui/material/styles";
-import { useContext } from "react";
 import { useLocation } from "react-router-dom";
-
-import { ViseronContext } from "context/ViseronContext";
 
 const Footer = styled("footer")(() => ({
   position: "relative",
@@ -18,7 +13,6 @@ const Footer = styled("footer")(() => ({
 export default function AppFooter() {
   const theme = useTheme();
   const location = useLocation();
-  const { version, gitCommit } = useContext(ViseronContext);
   const showFooter = !["/configuration", "/events", "/live"].includes(
     location.pathname,
   );
@@ -30,24 +24,7 @@ export default function AppFooter() {
         variant="subtitle2"
         color={theme.palette.text.secondary}
       >
-        Viseron - {version} - {gitCommit}
-      </Typography>
-      <Typography align="center" variant="subtitle2">
-        <Link
-          target="_blank"
-          href="https://github.com/roflcoopter/viseron"
-          color={theme.palette.text.secondary}
-        >
-          <GitHubIcon
-            fontSize="small"
-            sx={{
-              verticalAlign: "middle",
-              marginTop: "-3px",
-              marginRight: "5px",
-            }}
-          />
-          GitHub
-        </Link>
+        UPF Ayz 1.0.2
       </Typography>
     </Footer>
   ) : null;

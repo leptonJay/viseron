@@ -216,7 +216,7 @@ export default function AppHeader() {
                 margin: "5px",
               }}
             >
-              Viseron is running in safe mode. Cameras are not loaded and no
+              UPF Ayz is running in safe mode. Cameras are not loaded and no
               recordings are made. Please check the logs for more information.
             </Typography>
           </Box>

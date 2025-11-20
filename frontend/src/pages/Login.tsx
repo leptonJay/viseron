@@ -87,7 +87,7 @@ function Login() {
         <ViseronLogo width={150} height={150} />
       </Box>
       <Typography variant="h4" align="center">
-        Viseron
+        UPF Ayz
       </Typography>
       <Box
         display="flex"

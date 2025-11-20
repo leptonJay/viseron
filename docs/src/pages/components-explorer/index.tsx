@@ -17,7 +17,7 @@ import { Component, DomainType, Domains, DomainsList } from "@site/src/types";
 import styles from "./styles.module.css";
 
 const TITLE = "Components";
-const DESCRIPTION = "List of components that are available in Viseron.";
+const DESCRIPTION = "List of components that are available in UPF Ayz.";
 
 type UserState = {
   scrollTopPosition: number;

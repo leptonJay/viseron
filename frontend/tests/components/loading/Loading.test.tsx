@@ -8,16 +8,16 @@ describe("Loading Component", () => {
     expect(getByText("Loading data...")).toBeDefined();
   });
 
-  test("renders the Viseron logo when fullScreen is true", () => {
+  test("renders the UPF Ayz logo when fullScreen is true", () => {
     const { getByRole } = renderWithContext(
-      <Loading text="Loading data..." fullScreen />
+      <Loading text="Loading data..." fullScreen />,
     );
     expect(getByRole("img")).toBeDefined();
   });
 
-  test("does not render the Viseron logo when fullScreen is false", () => {
+  test("does not render the UPF Ayz logo when fullScreen is false", () => {
     const { queryByRole } = renderWithContext(
-      <Loading text="Loading data..." fullScreen={false} />
+      <Loading text="Loading data..." fullScreen={false} />,
     );
     expect(queryByRole("img")).toBeNull();
   });

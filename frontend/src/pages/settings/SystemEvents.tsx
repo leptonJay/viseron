@@ -102,7 +102,7 @@ function SystemEvents() {
         </Box>
         <Typography variant="subtitle2">
           When clicking the text field above, you can see a list of all events
-          fired since the last restart of Viseron.
+          fired since the last restart of UPF Ayz.
         </Typography>
         <Typography variant="subtitle2">
           A star (*) can be used as a wildcard in the event name.

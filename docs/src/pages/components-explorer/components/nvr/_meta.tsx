@@ -6,7 +6,7 @@ const ComponentMetadata: Component = {
   description:
     "The NVR component is the orchestrator for all other components. " +
     "It is responsible for passing images to object detectors and starting recordings, among other things." +
-    "It is absolutely vital for the functionality of Viseron.",
+    "It is absolutely vital for the functionality of UPF Ayz.",
   image: "/img/undraw_surveillance.svg",
   tags: ["nvr"],
 };

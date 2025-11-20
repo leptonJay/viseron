@@ -3,7 +3,7 @@ import { useEffect } from "react";
 export function useTitle(title: string): void {
   useEffect(() => {
     const prevTitle = document.title;
-    document.title = `${title} | Viseron`;
+    document.title = `${title} | UPF Ayz`;
 
     return () => {
       document.title = prevTitle;

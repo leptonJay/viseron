@@ -1,14 +1,14 @@
 import { SvgIconComponent } from "@mui/icons-material";
-import GitHubIcon from "@mui/icons-material/GitHub";
+// import GitHubIcon from "@mui/icons-material/GitHub";
 import ImageSearchIcon from "@mui/icons-material/ImageSearch";
 import LiveTvIcon from "@mui/icons-material/LiveTv";
-import MenuBookIcon from "@mui/icons-material/MenuBook";
+// import MenuBookIcon from "@mui/icons-material/MenuBook";
 import SettingsIcon from "@mui/icons-material/Settings";
 import VideoFileIcon from "@mui/icons-material/VideoFile";
 import VideocamIcon from "@mui/icons-material/Videocam";
 import ViewListIcon from "@mui/icons-material/ViewList";
 import ViewTimelineIcon from "@mui/icons-material/ViewTimeline";
-import VolunteerActivismIcon from "@mui/icons-material/VolunteerActivism";
+// import VolunteerActivismIcon from "@mui/icons-material/VolunteerActivism";
 import Box from "@mui/material/Box";
 import Container from "@mui/material/Container";
 import Divider from "@mui/material/Divider";
@@ -84,29 +84,29 @@ const getDrawerItems = (
         ]
       : []),
     { type: "divider" },
-    { type: "header", title: "Links" },
-    {
-      type: "link",
-      title: "GitHub",
-      icon: GitHubIcon,
-      path: "https://github.com/roflcoopter/viseron",
-      external: true,
-    },
-    {
-      type: "link",
-      title: "Documentation",
-      icon: MenuBookIcon,
-      path: "https://viseron.netlify.app",
-      external: true,
-    },
-    {
-      type: "link",
-      title: "Donations",
-      icon: VolunteerActivismIcon,
-      path: "https://github.com/sponsors/roflcoopter",
-      external: true,
-    },
-    { type: "divider" },
+    // { type: "header", title: "Links" },
+    // {
+    //   type: "link",
+    //   title: "GitHub",
+    //   icon: GitHubIcon,
+    //   path: "https://github.com/roflcoopter/viseron",
+    //   external: true,
+    // },
+    // {
+    //   type: "link",
+    //   title: "Documentation",
+    //   icon: MenuBookIcon,
+    //   path: "https://viseron.netlify.app",
+    //   external: true,
+    // },
+    // {
+    //   type: "link",
+    //   title: "Donations",
+    //   icon: VolunteerActivismIcon,
+    //   path: "https://github.com/sponsors/roflcoopter",
+    //   external: true,
+    // },
+    // { type: "divider" },
   ];
   return drawerItems;
 };
@@ -139,7 +139,7 @@ function AppDrawerHeader() {
           paddingRight: "50px",
         }}
       >
-        Viseron
+        UPF Ayz
       </Typography>
     </Container>
   );

@@ -2,7 +2,7 @@ import Box from "@mui/material/Box";
 import CircularProgress from "@mui/material/CircularProgress";
 import Grid from "@mui/material/Grid";
 import Typography from "@mui/material/Typography";
-import ViseronLogo from "svg/viseron-logo.svg?react";
+import ViseronLogo from "assets/images/plogo.png";
 
 interface LoadingProps {
   text: string;
@@ -33,11 +33,12 @@ export function Loading({ text, fullScreen = true }: LoadingProps) {
       {fullScreen && (
         <Grid>
           <Box display="flex" justifyContent="center" alignItems="center">
-            <ViseronLogo
+            <img
+              src="${ViseronLogo}"
               width={150}
               height={150}
               role="img"
-              aria-label="Viseron Logo"
+              aria-label="UPF Ayz Logo"
             />
           </Box>
         </Grid>
