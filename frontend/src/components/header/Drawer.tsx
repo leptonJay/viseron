@@ -20,7 +20,7 @@ import ListItemText from "@mui/material/ListItemText";
 import ListSubheader from "@mui/material/ListSubheader";
 import Typography from "@mui/material/Typography";
 import { Link, Location, useLocation } from "react-router-dom";
-import ViseronLogo from "svg/viseron-logo.svg?react";
+import ViseronLogo from "assets/images/plogo.png";
 
 import { useAuthContext } from "context/AuthContext";
 import * as types from "lib/types";
@@ -131,7 +131,7 @@ function AppDrawerHeader() {
       })}
     >
       <Box sx={{ margin: "10px" }}>
-        <ViseronLogo width={45} height={45} />
+        <img src={ViseronLogo} width={45} height={45} aria-label="UPF Ayz Logo" />
       </Box>
       <Typography
         variant="h5"

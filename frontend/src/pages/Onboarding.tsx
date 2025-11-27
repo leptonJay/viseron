@@ -5,7 +5,7 @@ import Grid from "@mui/material/Grid";
 import Paper from "@mui/material/Paper";
 import Typography from "@mui/material/Typography";
 import { Navigate } from "react-router-dom";
-import ViseronLogo from "svg/viseron-logo.svg?react";
+import ViseronLogo from "assets/images/plogo.png";
 
 import { TextFieldItem } from "components/TextFieldItem";
 import { useAuthContext } from "context/AuthContext";
@@ -27,7 +27,7 @@ function Onboarding() {
   return (
     <Container sx={{ marginTop: "2%" }}>
       <Box display="flex" justifyContent="center" alignItems="center">
-        <ViseronLogo width={150} height={150} />
+        <img src={ViseronLogo} width={150} height={150} aria-label="UPF Ayz Logo" />
       </Box>
       <Typography variant="h4" align="center">
         Welcome to UPF Ayz!

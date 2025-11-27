@@ -150,8 +150,10 @@ export class VideoRTC extends HTMLElement {
     if (typeof value !== "string") value = value.toString();
     if (value.startsWith("http")) {
       value = `ws${value.substring(4)}`;
+      console.log(value);
     } else if (value.startsWith("/")) {
       value = `ws${location.origin.substring(4)}${value}`;
+      console.log(value);
     }
 
     this.wsURL = value;

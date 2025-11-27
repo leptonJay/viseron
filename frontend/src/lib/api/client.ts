@@ -29,7 +29,7 @@ export const viseronAPI = axios.create({
   },
 });
 export const clientId = (): string =>
-  `${location.protocol}//${location.host}${BASE_PATH}/`;
+  `${location.protocol}//localhost:8888${BASE_PATH}/`;
 
 const queryClient = new QueryClient({
   defaultOptions: {

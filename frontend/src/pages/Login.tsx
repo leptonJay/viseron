@@ -6,7 +6,7 @@ import Paper from "@mui/material/Paper";
 import Typography from "@mui/material/Typography";
 import { useEffect, useReducer, useRef } from "react";
 import { Navigate, useLocation, useNavigate } from "react-router-dom";
-import ViseronLogo from "svg/viseron-logo.svg?react";
+import ViseronLogo from "assets/images/plogo.png";
 
 import { TextFieldItem, TextFieldItemState } from "components/TextFieldItem";
 import { useAuthContext } from "context/AuthContext";
@@ -84,7 +84,7 @@ function Login() {
   return (
     <Container sx={{ marginTop: "2%" }}>
       <Box display="flex" justifyContent="center" alignItems="center">
-        <ViseronLogo width={150} height={150} />
+        <img src={ViseronLogo} width={150} height={150} aria-label="UPF Ayz Logo" />
       </Box>
       <Typography variant="h4" align="center">
         UPF Ayz

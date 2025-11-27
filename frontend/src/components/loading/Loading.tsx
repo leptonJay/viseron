@@ -33,13 +33,7 @@ export function Loading({ text, fullScreen = true }: LoadingProps) {
       {fullScreen && (
         <Grid>
           <Box display="flex" justifyContent="center" alignItems="center">
-            <img
-              src="${ViseronLogo}"
-              width={150}
-              height={150}
-              role="img"
-              aria-label="UPF Ayz Logo"
-            />
+            <img src={ViseronLogo} width={150} height={150} aria-label="UPF Ayz Logo" />
           </Box>
         </Grid>
       )}
